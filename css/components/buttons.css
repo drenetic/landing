@@ -1,0 +1,15 @@
+.btn {
+  font-weight: 500;
+  color: #fff;
+  padding: 1em 1.5em;
+  background-image: linear-gradient(rgb(54, 23, 169),rgb(76, 0, 255));
+  border-radius: 12px;
+  border-top-right-radius: 30px;
+  max-width: 100px;
+}
+
+.btn:hover {
+  border-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: all 0.6s ease;
+}

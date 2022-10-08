@@ -1,0 +1,32 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  height: 600px;
+  background-image: linear-gradient(rgba(19, 0, 73, 0.9),rgba(0, 0, 0, 0.25)), url("../../images/background.png");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .banner {
+    height: 750px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    height: 600px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    height: 500px;
+  }
+}
